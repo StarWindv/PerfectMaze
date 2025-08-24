@@ -1,0 +1,8 @@
+creator/generated_mazes
+creator/checkpoints
+creator/samples
+creator/*.log
+*test*
+*/*test*
+.idea
+creator/*BAK*

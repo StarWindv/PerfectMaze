@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "PerfectMaze"
+version = "0.0.2"
+authors = [
+    { name = "星灿长风v(StarWindv)", email = "starwindv.stv@gmail.com"}
+]
+description = "A library that is expected to have multiple perfect maze generation schemes in its design has, currently implemented a perfect maze based on Hilbert curves"
+readme = "readme.md"
+license = { text = "MIT" }
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+]
+dependencies = [
+    "rich",
+    "numpy",
+    "matplotlib"
+]
+urls = { "Homepage" = "https://github.com/StarWindv/PerfectMaze" }
